@@ -8,12 +8,39 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^1.1.5",
+    "@chakra-ui/react": "^1.8.3",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
+    "barcode-react-scanner": "^1.2.0",
+    "date-fns": "^2.28.0",
+    "firebase": "^9.6.7",
+    "formik": "^2.2.9",
+    "framer-motion": "5",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.1",
     "next": "12.0.10",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
+    "next-pwa": "^5.4.4",
+    "numeral": "^2.0.6",
+    "phosphor-react": "^1.4.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-barcode-reader": "^0.0.2",
+    "react-calendar": "^3.7.0",
+    "react-datepicker": "^4.6.0",
+    "react-detect-offline": "^2.4.5",
+    "react-dom": "17.0.2",
+    "react-dropzone": "^12.0.2",
+    "react-firebase-hooks": "^5.0.2",
+    "react-image-file-resizer": "^0.4.7",
+    "react-webcam-barcode-scanner": "^0.0.2-rc2",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "eslint": "8.8.0",
-    "eslint-config-next": "12.0.10"
+    "eslint-config-next": "12.0.10",
+    "prettier": "^2.5.1"
   }
 }
